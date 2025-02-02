@@ -44,31 +44,31 @@ class Program
                 switch (choice)
                 {
                     case "1":
-                        ListAllFlights();
+                        ListAllFlights(); //gurveer
                         break;
                     case "2":
-                        ListAllBoardingGates();
+                        ListAllBoardingGates(); //yuansheng
                         break;
                     case "3":
-                        AssignBoardingGateToFlight();
+                        AssignBoardingGateToFlight(); //yuansheng
                         break;
                     case "4":
-                        CreateNewFlight();
+                        CreateNewFlight(); //gurveer
                         break;
                     case "5":
-                        DisplayFullFlightDetails();
+                        DisplayFullFlightDetails(); //yuansheng
                         break;
                     case "6":
-                        ModifyFlightDetails();
+                        ModifyFlightDetails(); //yuansheng
                         break;
                     case "7":
-                        DisplayScheduledFlights();
+                        DisplayScheduledFlights(); //gurveer
                         break;
                     case "8":
-                        advancedFeatures.ProcessUnassignedFlights();
+                        advancedFeatures.ProcessUnassignedFlights(); //gurveer
                         break;
                     case "9":
-                        advancedFeatures.DisplayTotalFeesPerAirline();
+                        advancedFeatures.DisplayTotalFeesPerAirline(); //yuansheng
                         break;
                     case "0":
                         Console.WriteLine("Goodbye!");
