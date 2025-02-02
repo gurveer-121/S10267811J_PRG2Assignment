@@ -1,7 +1,7 @@
 ﻿//==========================================================
-// Student Number : S10267811J
-// Student Name : Gurveer Singh
-// Partner Name : BOO yuan sheng
+// Student Number : S10270138
+// Student Name : Boo Yuan Sheng
+// Partner Name : Gurveer Singh
 //==========================================================
 public class BoardingGate
 {
