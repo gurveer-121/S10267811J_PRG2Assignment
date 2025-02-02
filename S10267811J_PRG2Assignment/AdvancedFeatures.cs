@@ -18,7 +18,7 @@ public class AdvancedFeatures
     }
 
     //Method a)process Unassigned Flights in Bulk
-    public void ProcessUnassignedFlights()
+    public void ProcessUnassignedFlights()  //gurveer
     {
         Queue<Flight> unassignedFlights = new Queue<Flight>(); //q to store flights 
         int unassignedFlightsCount = 0; //counter for unasagined flight 
@@ -110,7 +110,7 @@ public class AdvancedFeatures
 
 
     //Method b) calculate + display total fees 
-    public void DisplayTotalFeesPerAirline()
+    public void DisplayTotalFeesPerAirline()  //yuansheng
     {
         //check for boarding gate
         foreach (var flight in terminal.Flights.Values)
